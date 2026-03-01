@@ -162,6 +162,10 @@
         background: var(--bg-tertiary) !important;
     }
 
+    .message pre strong {
+        color: var(--text-tertiary) !important;
+    }
+
     .scrolled {
         all: unset;
     }
