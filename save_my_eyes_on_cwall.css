@@ -9,18 +9,18 @@
 @-moz-document url-prefix("https://c4.cwall.xyz/")
 {
     :root {
-        --bg-primary: #f8fafc;
-        --bg-secondary: rgb(241, 241, 241);
-        --bg-tertiary: rgba(241, 245, 249);
-        --text-primary: #0f172a;
-        --text-secondary: #475569;
-        --text-tertiary: #94a3b8;
-        --accent: #3b82f6;
-        --accent-hover: #2563eb;
-        --accent-soft: rgba(59, 130, 246, 0.1);
-        --danger: #ef4444;
-        --success: #10b981;
-        --warning: #f59e0b;
+        --bg-primary: #eff1f5;
+        --bg-secondary: #e6e9ef;
+        --bg-tertiary: #dce0e8;
+        --text-primary: #4c4f69;
+        --text-secondary: #5c5f77;
+        --text-tertiary: #6c6f85;
+        --accent: #1e66f5;
+        --accent-hover: #04a5e5;
+        --accent-soft: rgba(30, 102, 245, 0.1);
+        --danger: #d20f39;
+        --success: #40a02b;
+        --warning: #df8e1d;
         --glass-bg: rgba(255, 255, 255, 0.75);
         --glass-border: rgba(255, 255, 255, 0.5);
         --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
@@ -30,16 +30,16 @@
 
     @media (prefers-color-scheme: dark) {
         :root {
-            --bg-primary: #0f172a;
-            --bg-secondary: rgb(27, 37, 53);
-            --bg-tertiary: rgb(25, 31, 46);
-            --text-primary: #f8fafc;
-            --text-secondary: #cbd5e1;
-            --text-tertiary: #64748b;
-            --accent: #60a5fa;
-            --accent-hover: #3b82f6;
-            --accent-soft: rgba(96, 165, 250, 0.15);
-            --glass-bg: rgba(30, 41, 59, 0.75);
+            --bg-primary: #1e1e2e;
+            --bg-secondary: #181825;
+            --bg-tertiary: #11111b;
+            --text-primary: #cdd6f4;
+            --text-secondary: #bac2de;
+            --text-tertiary: #a6adc8;
+            --accent: #cba6f7;
+            --accent-hover: #f5c2e7;
+            --accent-soft: rgba(203, 166, 247, 0.15);
+            --glass-bg: rgba(30, 30, 46, 0.75);
             --glass-border: rgba(255, 255, 255, 0.08); 
             --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
